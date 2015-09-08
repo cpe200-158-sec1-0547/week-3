@@ -23,8 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+		Answer: No because r4 r5 r6 r7 are havn't "new" but also are Fraction.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+		Answer: No because case#1 it's build object first 
+				then replace r3 into this object of r3 and take objuct of r3 into r7
+				But case#2 it isn't built object it take r3 into r7.
 
 ## Expected Output:
 
